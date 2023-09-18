@@ -114,3 +114,62 @@ textarea{
     cursor: pointer;
     margin-top: 10px;
 }
+
+@media (max-width:1023px){
+    /*header*/
+    .encabezado {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+   
+}
+.pepe{
+    background-image: url('https://media.istockphoto.com/id/1263829087/es/foto/vista-a%C3%A9rea-de-drones-de-la-hermosa-isla-tropical-caribe%C3%B1a-cayo-levantado-playa-con-palmeras.jpg?s=612x612&w=0&k=20&c=myc4P73HcNa76qOxMQixUSQppS9GXJGit3iskYH2NrI=');
+    background-size: cover; /* Ajusta el tamaño de la imagen al párrafo */
+    padding: 20px; /* Añade un espacio alrededor del párrafo para que la imagen sea visible */
+    color: rgb(12, 12, 12); /* Cambia el color del texto para que sea legible en la imagen de fondo */
+
+}
+.titulo{
+    color: rgb(90, 49, 20);
+}
+
+
+@media (max-whidth){
+    .contenedorDestinos{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Estilos generales para los iframes */
+iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Consulta de medios para pantallas pequeñas (por ejemplo, dispositivos móviles) */
+@media (max-width: 768px) {
+    /* Ajusta el ancho de los iframes para adaptarse al ancho de la pantalla */
+    iframe {
+        width: 100%;
+    }
+}
+
+.redesSociales{
+    color: #28a745;
+  
+   
+}
+
+/* Estilos para la imagen de Instagram */
+.instagram img {
+    max-width: 50px; /* Ajusta el ancho máximo según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+/* Estilos para la imagen de Instagram */
+.facebook img {
+    max-width: 50px; /* Ajusta el ancho máximo según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
